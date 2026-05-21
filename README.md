@@ -1,12 +1,9 @@
 # Paralelismo Recursivo
-*Equipo 2: Paralelismo recursivo con task*
-*Integrantes:*
-
-*- 321285535 Arceo Ramirez Ailyn Yuselmi*
-
-*- 322024089 Grande Luna Samantha*
-
-*- 322253700 Gutiérrez Martínez Esmeralda Rubí*
+__*Equipo 2: Paralelismo recursivo con task*__ 
+*Integrantes:* 
+- 321285535 *- Arceo Ramirez Ailyn Yuselmi* 
+- 322024089 *- Grande Luna Samantha* 
+- 322253700 *- Gutiérrez Martínez Esmeralda Rubí*
 
 ---
 
