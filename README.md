@@ -53,6 +53,7 @@ El paralelismo no es gratis; la gestión de tareas introduce un costo oculto en 
 ---
 
 ## Analisis de resultados 
+Primerop que nadda tenemos el código secuencial, al depender únicamente de stdio.h, ejecuta las llamadas de manera ordenada y consecutiva, lo que lo hace más simple pero lento en valores grandes de n, mientras que el código paralelo, al incluir omp.h, divide el cálculo en tareas que pueden ejecutarse al mismo tiempo en distintos hilos, logrando mayor eficiencia en números grandes aunque pero con sobrecarga en valores pequeños.En nuestro caso que tenemos el cálculo de Fibonacci, esto tiende a que las llamadas recursivas a fibonacci(n-1) y fibonacci(n-2) pueden ejecutarse simultáneamente, acelerando el cálculo, pero gracias a taskwait se garantiza que ambas finalicen antes de sumar sus resultados, aqui mismo podemos tener que taskwait va esperar a que se terminen las tareas; sin esta sincronización, el programa podría intentar usar valores incompletos o incorrectos. Recordando que no nos puede util para programas sencillos ya que tiene un mayor precio.
 
 ---
 
