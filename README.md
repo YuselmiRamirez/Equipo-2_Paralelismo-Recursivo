@@ -58,12 +58,14 @@ Primero que nada tenemos el código secuencial, al depender únicamente de stdio
 ---
 
 ## Conclusiones.
+Si hay un aprendizaje clave es que más paralelismo no siempre significa tener más velocidad. Si intentamos dividir el problema en partes demasiado pequeñas, la computadora suele gastar más tiempo y energía organizando, creando y repartiendo esas micro-tareas que resolviendo el problema real. Una equivalencia, al menos en la vida real, sería gastar más tiempo en organizar una reunión que la reunión en sí misma.
+Si hay algo que se puede decir como punto final, es que, para que estos algoritmos funcionen tenemos que ser conscientes del equilibrio. El código paralelo es eficiente solo cuando se aplica a problemas grandes. Para las partes pequeñas, lo ideal es dejar que la computadora las resuelva de forma secuencial y tradicional. Al final, programar la programación en paralelo no es solo activar la función para que todo corra al mismo tiempo, sino saber decidir fuera de la terminal cuándo vale la pena dividir el trabajo y cuándo es mejor resolverlo de forma directa.
 
 ---
 
 ## Referencias.
 - GeeksforGeeks. (2026, 19 enero). Introduction to Divide and Conquer Algorithm. GeeksforGeeks. https://www.geeksforgeeks.org/dsa/introduction-to-divide-and-conquer-algorithm/ 
 - Content Studio. (2024, 18 marzo). ¿Qué es el paralelismo de datos? Everpure. https://www.everpuredata.com/la/knowledge/what-is-data-parallelism.html
-- Gálvez, J. A. S. (s. f.). Hilos. Unidades de Apoyo Para el Aprendizaje - CUAED - UNAM. https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3084/mod_resource/content/1/UAPA-Hilos/index.html
+- Gálvez, J. A. S. (s. f.). Hilos. Unidades de Apoyo Para el Aprendizaje - CUAED - UNAM. https://repositoriouapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3084/mod_resource/content/1/UAPA-Hilos/index.html
 - OpenMP Architecture Review Board. (2018). OpenMP Application Programming Interface Version 5.0. https://www.openmp.org
 - Chandra, R., Dagum, L., Kohr, D., Maydan, D., McDonald, J., & Menon, R. (2001). Parallel programming in OpenMP. Morgan Kaufmann.
