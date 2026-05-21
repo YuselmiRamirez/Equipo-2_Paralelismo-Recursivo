@@ -64,6 +64,7 @@ Si hay algo que se puede decir como punto final, es que, para que estos algoritm
 ---
 
 ## Referencias.
+-Facultad de Ingeniería. (2017). Manual de prácticas del Laboratorio de Estructuras de datos y algoritmos II (Versión 01, Código MADO-20). Universidad Nacional Autonoma de México.
 - GeeksforGeeks. (2026, 19 enero). Introduction to Divide and Conquer Algorithm. GeeksforGeeks. https://www.geeksforgeeks.org/dsa/introduction-to-divide-and-conquer-algorithm/ 
 - Content Studio. (2024, 18 marzo). ¿Qué es el paralelismo de datos? Everpure. https://www.everpuredata.com/la/knowledge/what-is-data-parallelism.html
 - Gálvez, J. A. S. (s. f.). Hilos. Unidades de Apoyo Para el Aprendizaje - CUAED - UNAM. https://repositoriouapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3084/mod_resource/content/1/UAPA-Hilos/index.html
