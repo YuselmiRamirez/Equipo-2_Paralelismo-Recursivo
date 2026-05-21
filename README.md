@@ -1,5 +1,5 @@
 # Paralelismo Recursivo
-__*Equipo 2: Paralelismo recursivo con task*__ 
+__*Equipo 2: Paralelismo recursivo con task*__  
 Integrantes: 
 - 321285535 *- Arceo Ramirez Ailyn Yuselmi* 
 - 322024089 *- Grande Luna Samantha* 
